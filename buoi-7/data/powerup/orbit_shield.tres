@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PowerupDecoratorData" format=3 uid="uid://6yfjmka0vmtq"]
+
+[ext_resource type="Script" uid="uid://cfv10eu7hy5dp" path="res://scenes/powerups/orbit_shield_decorator.gd" id="1_4josj"]
+[ext_resource type="Script" uid="uid://bslulkxbp70v5" path="res://scripts/powerup/powerup_decorator_data.gd" id="2_rey1x"]
+
+[resource]
+script = ExtResource("2_rey1x")
+id = "orbit_shield"
+display_name = "Khiên"
+decorator_script = ExtResource("1_4josj")
+duration = 30.0
+metadata/_custom_type_script = "uid://bslulkxbp70v5"
